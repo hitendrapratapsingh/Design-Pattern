@@ -1,0 +1,29 @@
+What is Singleton Pattern?
+
+A design pattern that ensures only one instance of a class exists throughout the application.
+
+How to implement Singleton in Node.js?
+
+Using module.exports or static class instance check.
+
+Why use Singleton Pattern?
+
+When shared resources are needed (e.g., Database Connection, Logger, Config).
+
+How can Singleton be broken?
+
+By cloning, dynamic imports, or separate Node.js processes.
+
+How to prevent breaking?
+
+Use Object.freeze(), export a single instance, or control imports strictly.
+
+Real-world examples in Node.js:
+
+require() caching system.
+
+Database connection pool.
+
+Logging system (Winston, Bunyan).
+
+Configuration manager.
